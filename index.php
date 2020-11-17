@@ -164,7 +164,7 @@ jQuery.noConflict();
 
 									<td>
 																																								
-										<h4><a href="https://baza.azvo.hr/addons/download/example/institution.php?&id=<?php echo $jsonAsObject->results[$i]->id; ?>"><?php echo $jsonAsObject->results[$i]->name_official_display; ?></a></h4>	
+										<h4><a href="institution.php?&id=<?php echo $jsonAsObject->results[$i]->id; ?>"><?php echo $jsonAsObject->results[$i]->name_official_display; ?></a></h4>	
 										<h4 style="color:#808080;"><i><?php echo $jsonAsObject->results[$i]->name_primary; ?></i></h4>										
 										<p> <?php echo $jsonAsObject->results[$i]->website_link; ?></p>
 									<!--<p> DEQAR ID: <a href="https://www.eqar.eu/qa-results/search/by-institution/institution/?id=<?php echo $jsonAsObject->results[$i]->id;?>" target="_blank"><?php echo $jsonAsObject->results[$i]->id; ?> </a></p>-->
